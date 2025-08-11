@@ -12,11 +12,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in); 
 
-        System.out.println("Qual o valor de n?:  ");
-        
-        int n = in.nextInt();
-        
-        int result = fatorial(n);
-        System.out.println("Resultado da funcao:  " + result);
+        Ex7 x5 = new Ex7();
+
+        System.out.println(x5.somatorio(new));
     }
 }
